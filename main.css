@@ -1,0 +1,252 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: midnightblue;
+    color: white;
+}
+
+/*Navigation*/
+
+
+
+/*nav {
+    background-color: white;
+}
+nav ul {
+    background-color: white;
+}
+
+
+
+
+
+
+/* The element at the top of the page right after the fixed navigation bar
+   MUST have sufficient top margin or else it will be covered by the bar */
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 70px;
+  background-color: gainsboro;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a { 
+  height: 50px;
+  line-height: 50px;
+}
+.menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  display: inline-block;
+}
+.sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+  color: #e0e0e0;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.menu-items a {
+  text-decoration: none;
+}
+.show, .hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+.show {
+  background-image: url(assets/down-arrow-icon.png);
+}
+.hide {
+  background-image: url(assets/up-arrow-icon.png);
+}
+
+@media only screen and (max-width: 800px) {
+  .menu { 
+    position: relative;
+    width: 100%;
+  }
+  .sitename {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: 0px;
+  }
+  .menu-items {
+    display: none; 
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008378;
+  }
+  .menu-items li {
+    display: block;
+    text-align: center;
+  }
+  .show, .hide {  
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+  .show {
+    display: inline-block;
+  }
+  .hide {
+    display: none;
+  }
+  #menu:target .show {
+    display: none;
+  }
+  #menu:target .hide, #menu:target .menu-items {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  .sitename, .show, .hide {
+    font-size: 14px;
+  }
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 1px 30px;
+    margin-left: 85px;
+}
+
+nav li:nth-child(1){
+   background-color: red;
+    color: white;
+}
+
+nav li:nth-child(2){
+    border: solid 1px black;
+    color: dodgerblue;
+    background-color: white;
+}
+
+nav li:nth-child(3){
+    border: 1px black solid;
+    color:red;
+    background-color: dodgerblue;
+    }
+
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: red;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: dodgerblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: red
+    }
+
+.show {
+    display: block;
+}*/
+
+/*Landing stip*/
+
+
+.landing {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid black;
+    background-color: white;
+    
+}
+
+#land_img {
+    width: 100%;
+    position: relative;
+        
+    
+}
+
+/*About*/
+
+.about {
+    border-bottom: 3px solid black;
+    background-color: midnightblue;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+/*Story*/
+
+.story {
+    width: 100%;
+    border-bottom: 3px solid black;
+    background-color: midnightblue;
+    
+}
+
+/*Meet the Staff*/
+.staff {
+    border-bottom: 3px solid black;
+
+}
+
+/*Remote Staff*/
+.remote{
+    border-bottom: 3px solid black;
+
+}
+
+/*Services*/
+.Services{
+    border-bottom: 3px solid black;
+}
+
+/*Testimonial*/
+
+
